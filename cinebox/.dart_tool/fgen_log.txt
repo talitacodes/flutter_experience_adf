@@ -1,0 +1,15 @@
+2025-08-13 20:15:03.185073  : allImageList = [assets/images/bg_login.png, assets/images/google_logo.png, assets/images/icon_filme_nav_bar.png, assets/images/icon_filme_nav_bar_inativo.png, assets/images/icon_heart_bnb.png, assets/images/icon_heart_bnb_inativo.png, assets/images/icon_profile_nav_bar.png, assets/images/icon_profile_nav_bar_inativo.png, assets/images/logo.png, assets/images/no-image.png, assets/images/small_banner.png]
+2025-08-13 20:15:03.186794  : Start writing records
+2025-08-13 20:15:03.250395  : End writing records 0
+2025-08-13 20:31:10.288876  : allImageList = [assets/images/bg_login.png, assets/images/google_logo.png, assets/images/icon_filme_nav_bar.png, assets/images/icon_filme_nav_bar_inativo.png, assets/images/icon_heart_bnb.png, assets/images/icon_heart_bnb_inativo.png, assets/images/icon_profile_nav_bar.png, assets/images/icon_profile_nav_bar_inativo.png, assets/images/logo.png, assets/images/no-image.png, assets/images/small_banner.png]
+2025-08-13 20:31:10.290761  : Start writing records
+2025-08-13 20:31:10.356657  : End writing records 0
+2025-08-13 20:38:05.274466  : allImageList = [assets/images/bg_login.png, assets/images/google_logo.png, assets/images/icon_filme_nav_bar.png, assets/images/icon_filme_nav_bar_inativo.png, assets/images/icon_heart_bnb.png, assets/images/icon_heart_bnb_inativo.png, assets/images/icon_profile_nav_bar.png, assets/images/icon_profile_nav_bar_inativo.png, assets/images/logo.png, assets/images/no-image.png, assets/images/small_banner.png]
+2025-08-13 20:38:05.276327  : Start writing records
+2025-08-13 20:38:05.340749  : End writing records 0
+2025-08-13 20:40:34.151057  : allImageList = [assets/images/bg_login.png, assets/images/google_logo.png, assets/images/icon_filme_nav_bar.png, assets/images/icon_filme_nav_bar_inativo.png, assets/images/icon_heart_bnb.png, assets/images/icon_heart_bnb_inativo.png, assets/images/icon_profile_nav_bar.png, assets/images/icon_profile_nav_bar_inativo.png, assets/images/logo.png, assets/images/no-image.png, assets/images/small_banner.png]
+2025-08-13 20:40:34.153921  : Start writing records
+2025-08-13 20:40:34.223407  : End writing records 0
+2025-08-13 20:41:27.872294  : allImageList = [assets/images/bg_login.png, assets/images/google_logo.png, assets/images/icon_filme_nav_bar.png, assets/images/icon_filme_nav_bar_inativo.png, assets/images/icon_heart_bnb.png, assets/images/icon_heart_bnb_inativo.png, assets/images/icon_profile_nav_bar.png, assets/images/icon_profile_nav_bar_inativo.png, assets/images/logo.png, assets/images/no-image.png, assets/images/small_banner.png]
+2025-08-13 20:41:27.874010  : Start writing records
+2025-08-13 20:41:27.936765  : End writing records 0
