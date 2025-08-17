@@ -55,8 +55,8 @@ abstract class TmdbService {
   });
   @GET('/movie/{movie_id}?include_image_language=pt,null')
   Future<MovieDetailsResponse> getMoviesDetails(
-    @Path('movie_id') int movieId,
-    @Query('append_to_response') String appendToResponse, {
+    @Path('movie_id') int movieId, {
     @Query('language') String language = 'pt-BR',
+    @Query('append_to_response') String appendToResponse = '',
   });
 }

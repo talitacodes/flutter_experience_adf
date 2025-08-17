@@ -5,4 +5,6 @@ abstract interface class MoviesRepository {
   Future<Result<List<FavoriteMovie>>> getMyFavoritesMovies();
 
   Future<Result<Unit>> deleteFavoriteMovie(int movieId);
+
+  Future<Result<Unit>> saveFavoriteMovie(FavoriteMovie favoriteMovie);
 }

@@ -251,14 +251,14 @@ class _TmdbService implements TmdbService {
 
   @override
   Future<MovieDetailsResponse> getMoviesDetails(
-    int movieId,
-    String appendToResponse, {
+    int movieId, {
     String language = 'pt-BR',
+    String appendToResponse = '',
   }) async {
     final _extra = <String, dynamic>{};
     final queryParameters = <String, dynamic>{
-      r'append_to_response': appendToResponse,
       r'language': language,
+      r'append_to_response': appendToResponse,
     };
     final _headers = <String, dynamic>{};
     const Map<String, dynamic>? _data = null;
