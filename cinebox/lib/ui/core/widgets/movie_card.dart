@@ -4,7 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class MovieCard extends ConsumerStatefulWidget {
-  const MovieCard({super.key});
+  final int id;
+  final String title;
+  final int year;
+  final String imageUrl;
+  final bool isFavorite;
+  final VoidCallback? onFavoriteTap;
+  const MovieCard({
+    required this.id,
+    required this.title,
+    required this.year,
+    required this.imageUrl,
+    required this.isFavorite,
+    this.onFavoriteTap,
+    super.key,
+  });
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _MovieCardState();
@@ -24,8 +38,7 @@ class _MovieCardState extends ConsumerState<MovieCard> {
               CachedNetworkImage(
                 width: 148,
                 height: 184,
-                imageUrl:
-                    "https://m.media-amazon.com/images/I/713HILcikjL._UF1000,1000_QL80_.jpg",
+                imageUrl: widget.imageUrl,
                 imageBuilder: (context, imageProviver) {
                   return Container(
                     width: 148,
@@ -59,13 +72,13 @@ class _MovieCardState extends ConsumerState<MovieCard> {
               ),
               SizedBox(height: 20),
               Text(
-                'Severance',
+                widget.title,
                 style: TextStyle(fontSize: 14, fontWeight: FontWeight.w600),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
               Text(
-                '2019',
+                '${widget.year}',
                 style: TextStyle(
                   fontSize: 11,
                   fontWeight: FontWeight.w400,
